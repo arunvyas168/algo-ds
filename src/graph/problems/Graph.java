@@ -1,4 +1,4 @@
-package com.company;
+package graph.problems;
 import java.util.*;
 
 /**
