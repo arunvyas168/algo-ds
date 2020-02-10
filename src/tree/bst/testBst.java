@@ -15,5 +15,6 @@ public class testBst {
         printBST.printPreOrderBst(root);
         System.out.println();
         printBST.printLevelOrderBst(root);
+        System.out.println(isValidBst.isValidBST(root));
     }
 }
