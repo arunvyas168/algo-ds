@@ -24,7 +24,7 @@ public class SearchSortedRotated {
             if ((array[mid]<key)&&(key<=array[end])){
                 return sortedRotatedSearchUtil(array, key, mid+1, end);
             }else {
-                return sortedRotatedSearchUtil(array, key, mid-1, end);
+                return sortedRotatedSearchUtil(array, key, start, mid-1);
             }
         }
 
